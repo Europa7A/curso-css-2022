@@ -1,0 +1,22 @@
+
+/* Selectores de atributo */
+
+/* 
+    (a) Selectores de ID
+    (b) Selectores de clase
+ */
+
+/* Selectores de ID */
+#subtitulo1{
+    background-color: lightblue;
+}
+#subtitulo2{
+    background-color: lightgreen;
+}
+
+/* Selectores de clase */
+
+.parrafo{
+    background-color: darkred;
+    color: lightcoral;
+}

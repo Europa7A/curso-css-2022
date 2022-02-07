@@ -1,0 +1,12 @@
+/* Selectores combinadores */
+
+/* 
+    1. Selector descendiente *
+    2. Selector de hermano siguiente
+    3. Selector de hermanos siguientes
+*/
+
+/* 1. */
+div .subtitulo{
+    color:red;
+}

@@ -1,0 +1,43 @@
+
+/* Selectores de atributo (otros atributos)*/
+
+/* 
+    (a) [atributo] -> (ese atributo)
+    (b) [atributo="valor"] -> (ese atributo y ese valor)
+    (c) [atributo^="valor"] <AltGr + ap.llaves> -> (empiezan por ese valor)
+    (d) [atributo*="valor"] -> (ese valor en cualquier lugar)
+    (e) [atributo$="valor"] -> (termina por ese valor)
+    (f) [atributo|="valor"] -> (que tenga el valor seguido o no de un guión)
+*/
+
+/* (a) [atributo] */
+[href]{
+    background-color: black;
+    color: white;
+}
+/* (b) [atributo="valor"] */
+[href="rojo"]{
+    background-color: red;
+}
+/* (c) [atributo^="valor"] */
+[href^="verde"]{
+    background-color: green;
+}
+/* (d) [atributo*="valor"] */
+[href*="amarillo"]{
+    background-color: yellow;
+    color: black;
+}
+/* (e) [atributo$="valor"] */
+[href$="blanco"]{
+    background-color: white;
+    color: black;
+}
+/* (f) [atributo|="valor"] */
+[lang|="es"]{
+    background-color: royalblue;
+}
+
+body{
+    background-color: #333;
+}

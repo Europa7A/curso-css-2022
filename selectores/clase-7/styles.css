@@ -1,0 +1,30 @@
+
+
+/* Selectores elementales */
+
+/* 
+    (a) Selectores universales
+    (b) Selectores de etiqueta
+*/
+
+/* Selectores universales */
+* {
+    background-color: coral;
+}
+
+/* Selectores de etiquetas */
+p{
+    color: white;
+}
+h1{
+    color: greenyellow;
+}
+
+li{
+    background-color: white;
+    color: gray;
+}
+ul{
+    background-color: black;
+    
+}
