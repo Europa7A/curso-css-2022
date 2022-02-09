@@ -1,0 +1,28 @@
+
+
+.caja{
+    background-color: coral;
+    /* Propiedades de Box Model */
+
+
+    /* width */
+    width: 120px;
+
+    /* height */
+    height: 100px;
+
+    /* border */
+    border: 8px solid blue;
+
+    /* padding */
+    padding: 10px;
+
+    /* contenido (en este caso TEXTO) */
+    text-align: center;
+    line-height: 100px;
+
+    /* margin */
+    margin: 50px;
+
+    
+}

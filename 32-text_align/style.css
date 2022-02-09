@@ -1,0 +1,54 @@
+
+
+/* 
+    text-align solo centra y afecta a el contenido de una caja y NO A LA CAJA EN SI
+
+    Para centrar la caja utilizamos margin-left y margin-right o en su defecto flexbox o grid
+
+    text-align solo funciona si el elemento es de bloque o display: block. Ademas funciona solo si la caja no tiene un ancho definido
+*/
+*{
+    box-sizing: border-box;
+}
+
+.text{
+    /* text-align valores */
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+}
+
+.img{
+    width: 50%;
+}
+
+.border{
+    background-color: darkturquoise;
+    width: 100px;
+    border: 2px solid fuchsia;
+    text-align: center; /*centrado respecto a la caja que lo contiene*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.link{
+    /* no funciona para elementos inline */
+    text-align: center;
+
+    display: block;
+    margin-bottom: 20px;
+}
+.img-container{
+    background-color: lightpink;
+    text-align: center;
+}
+
+.img{
+    /* en caso de centrar */
+    display: block; /*solo si no tiene un contenedor padre*/
+    display: inline; /*solo si tiene un contenedor padre*/
+    /* margin-left: auto;
+    margin-right: auto; */
+ 
+}

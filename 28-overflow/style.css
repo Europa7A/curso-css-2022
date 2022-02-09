@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+
+.contenedor{
+    margin-top: 100px;
+    width: 250px;
+    height: 450px;
+    background-color: lightskyblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80px;
+}
+
+
+/* Overflow */
+.contenedor{
+    overflow: visible; /*default*/
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    overflow-y: auto;
+}
+
+.caja1, .caja2{
+    background-color: rgba(134, 221, 20, 0.623);
+    padding: 2em;
+    text-align: justify;
+}
+.texto1, .texto2{
+    margin: 0;
+}
+

@@ -1,0 +1,19 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.border, .outline{
+    width: 150px;
+    background-color: lightblue;
+    border: 2px solid #0000ff;
+    margin-bottom: 15px;
+}
+
+.border{
+    border-width: 10px;
+}
+.outline{
+    border: none;
+    outline: 10px dashed #0000ff;
+}

@@ -1,0 +1,25 @@
+
+
+/* 
+    HERENCIA
+
+    palabras claves:
+
+    1. ineherit -> forza la heredacion de su padre
+    2. initial  -> evita la heredacion de su padre
+*/
+
+.parrafo{
+    color: orangered;
+}
+
+.titulo > span{
+    font-size: initial;
+    font-weight: initial;
+}
+
+
+.parrafo > em{
+    font-style: inherit;
+    color: initial;
+}

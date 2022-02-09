@@ -1,0 +1,38 @@
+/* 
+    shorthand -> border: width style color;
+    shorthand -> border-top-width, border-right-width, border-bottom-width, border-left-width;
+    (shorthand lo mismo con border-style, border-color)
+    border-style: valores 
+        - none
+        - hidden
+        - dotted
+        - dashed
+        - double
+        - groove
+        - ridge
+        - inset
+        - outset
+*/
+
+body{
+    margin: 0;
+}
+
+.caja{
+    border: 5px solid lightcoral;
+}
+
+.caja{
+    text-transform: uppercase;
+    background-color: lightseagreen;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,95 @@
+
+
+
+/* BORDER RADIUS */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    position: relative;
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: lightseagreen;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.caja{
+    
+    border-radius: 50px 100px 150px 200px;
+
+}
+
+.caja .item{
+    color:black;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 8pt;
+    text-align: center;
+    
+}
+
+.top-left{
+    top: 5px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+.top-right{
+    top: 5px;
+    left: 182px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 80px;
+
+}
+.bottom-left{
+    top: 95px;
+    left: 45px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    line-height: 180px;
+}
+.bottom-right{
+    line-height: 130px;
+    top: 138px;
+    left: 130px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.top-left > div{
+    width: 50px;
+}
+.top-right > div{
+    width: 100px;
+}
+.bottom-right > div{
+    width: 150px;
+}
+.bottom-left > div{
+    width: 200px;
+}
+
+
+.item > div{
+    border-top: 1px solid red;
+    position: absolute;
+    top: 50%;
+    line-height: 20px;
+    color: red
+}
+
