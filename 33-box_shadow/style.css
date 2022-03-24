@@ -1,0 +1,39 @@
+
+
+
+/* 
+    BOX-SHADOW
+
+    box-shadow: offset-X offset-Y blur-radius spread-radius color
+
+    spread-radius: funciona como un padding
+*/
+
+
+.box{
+    background-color: lightskyblue;
+    width: 200px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.simple{
+    box-shadow: 10px 10px gray;
+}
+
+.blur{
+    box-shadow: 10px 10px 10px gray ;
+}
+.spread{
+    box-shadow: 10px 10px 10px 15px gray;
+}
+.inset{
+    box-shadow: inset -10px -10px gray;
+}
+.multiple{
+    box-shadow: 5px 5px red, 10px 10px yellow, 15px 15px green;
+}
