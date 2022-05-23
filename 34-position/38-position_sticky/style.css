@@ -1,0 +1,22 @@
+img{
+    /* box-sizing: border-box; */
+    max-width: 100%;
+    /* border: 10px solid ; */
+}
+header{
+    text-align: center;
+    border: 5px dotted red;
+    height: auto;
+    /* overflow: scroll; */
+    
+    
+
+}
+nav{
+    border: 5px solid slateblue;
+    background-color: skyblue;
+    font-size: 24px;
+    position: sticky;
+    top: 0;
+    
+}
